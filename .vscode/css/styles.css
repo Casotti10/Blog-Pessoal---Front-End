@@ -1,0 +1,63 @@
+/* Resetando as configurações padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+:root {
+    --purple-200: #9a7bd1;
+    --purple-500: #6b36c8;
+    --purple-800: #441f88;
+
+    --black-800: #171717;
+
+    --gray-200: #cccccc;
+    --gray-400: #505861;
+
+    --white: #F9F9F9;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background: var(--gray-200);
+    color: var(--black-800);
+}
+
+/* Definindo as configurações de títulos e paragrafo */
+h1{
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2{
+    padding: 1rem;
+    color: var(--black-800);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+h3{
+    padding: 1rem;
+    color: var(--white);
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    padding: 0.5rem 0;
+}

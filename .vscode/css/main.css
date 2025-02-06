@@ -1,0 +1,76 @@
+.titulo{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 4rem 6rem 1rem;
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    margin: 0 4rem;
+}
+
+.container-profile{
+    width: 35vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-image: url(../images/profile.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.sobre-textos{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sobre-texto-principal, .sobre-texto-secundario{
+    font-size: 1.6rem;
+    line-height: 1.6;
+
+}
+
+.favorito{
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container-favorito-item{
+    border-radius: 0.8rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.favorito-ancora{
+    text-align: center;
+    text-decoration: none;
+    color: var(--azul);
+}
+
+.favorito-imagem{
+    padding: 0.5rem;
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.favorito-titulo{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.favorito-texto{
+    margin: 1.5rem;
+}
